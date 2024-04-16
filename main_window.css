@@ -8,8 +8,8 @@ header {
 }
 
 .logo-container {
-    width: 50px; /* Примерная ширина */
-    height: auto; /* Высота будет автоматически подстроена */
+    width: 50px;
+    height: auto; 
 }
 
 .logo {
@@ -27,62 +27,61 @@ a:hover {
 }
 
 .main-container {
-    display: flex; /* Располагаем контейнеры в ряд */
-    justify-content: flex-start; /* Распределение пространства между элементами */
-    padding: 20px; /* Некоторое внутреннее пространство */
+    display: flex;
+    justify-content: flex-start; 
+    padding: 20px;
 }
 
 .data-container{
-    display: flex; /* Для расположения дочерних элементов в колонку */
-    flex-direction: column; /* Дочерние элементы располагаем в колонку */
-    margin-right: 20px; /* Отступ справа для внутренних контейнеров */
+    display: flex;
+    flex-direction: column;
+    margin-right: 20px;
     width:150px;
 }
 
 .enter-container {
-    display: flex; /* Для расположения дочерних элементов в колонку */
-    flex-direction: column; /* Дочерние элементы располагаем в колонку */
-    margin-right: 20px; /* Отступ справа для внутренних контейнеров */
+    display: flex; 
+    flex-direction: column;
+    margin-right: 20px;
     width: 60%;
 }
 
 .combox {
-    border: 1px solid black; /* Граница для combobox */
-    margin-bottom: 10px; /* Отступ снизу */
-    padding: 5px; /* Паддинг внутри combobox */
+    border: 1px solid black;
+    margin-bottom: 10px; 
+    padding: 5px; 
 }
 
 .mounth {
     display: flex;
     flex-direction: column;
-    border: 1px solid black; /* Граница для блока с месяцами */
-    padding: 5px; /* Паддинг внутри блока с месяцами */
-    height: 400px; /* Высота блока с месяцами */
-    overflow-y: auto; /* При необходимости включаем прокрутку по вертикали */
+    border: 1px solid black; 
+    padding: 5px;
+    height: 400px; 
+    overflow-y: auto;
 }
 
 .enter-field {
-    /* Стили для внешнего контейнера (если это необходимо) */
-    height: 60%; /* Высота поля ввода */
-    margin-bottom: 30px; /* Отступ снизу */
+    height: 60%; 
+    margin-bottom: 30px; 
     margin-top: 40px;
 }
 
 #field {
-    height: 100%; /* Полная высота родительского элемента */
-    width: 62%; /* Полная ширина родительского элемента */
-    text-align: start; /* Выравнивание текста слева и сверху */
-    box-sizing: border-box; /* Границы и padding включены в ширину и высоту */
-    padding: 5px; /* Внутренние отступы */
-    resize: none; /* Запрет изменения размеров пользователем */
-    overflow: auto; /* Автоматическая прокрутка при необходимости */
-    white-space: pre-wrap; /* Перенос текста по словам */
-    word-break: break-word; /* Перенос длинных слов на новую строку */
+    height: 100%; 
+    width: 62%; 
+    text-align: start; 
+    box-sizing: border-box;
+    padding: 5px;
+    resize: none;
+    overflow: auto;
+    white-space: pre-wrap; 
+    word-break: break-word;
 }
 
 .buttons {
-    display: flex; /* Для расположения кнопок в ряд */
-    justify-content: flex-start; /* Распределение пространства между кнопками */
+    display: flex; 
+    justify-content: flex-start;
 }
 
 .button{
